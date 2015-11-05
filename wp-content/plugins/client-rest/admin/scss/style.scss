@@ -1,0 +1,423 @@
+@import "compass";
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+// Sass variables
+@import "partials/variables";
+// typography
+@import "partials/typography";
+// Sass functions
+@import "partials/functions";
+// import mixins
+@import "partials/mixins";
+
+// the grid
+@import "partials/grid";
+
+@import "bootstrap/bootstrap";
+@import "partials/modals";
+@import "partials/angular_animate";
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+%ajax-loader {
+	width: 60px;
+	height: 60px;
+	margin: 1.5em auto;
+	background: #000;
+	border-radius: 50%;
+	-webkit-animation: pulse 1s infinite alternate;
+	animation: pulse 1s infinite alternate;
+	display: none;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		opacity: 1;
+		width: 45px;
+		height: 45px;
+	}
+
+	to {
+		opacity: 0.5;
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@keyframes pulse {
+	from {
+		opacity: 1;
+		width: 45px;
+		height: 45px;
+	}
+
+	to {
+		opacity: 0.5;
+		width: 35px;
+		height: 35px;
+	}
+}
+
+
+
+.uf-config-section {
+    ul.uf-menu {
+      @include no-bullets;
+      + li {
+
+      }
+    }
+}
+
+.uf-widget-container {
+  padding-left: 0;
+  .row {
+    .col {
+      .panel {
+        #embedForm {
+          .form-group {
+            label {
+
+            }
+            input[type=text], input[type=number] {
+
+            }
+            select {
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#embedForm {
+
+}
+
+.uf-widget-ajax-loader {
+  @extend %ajax-loader;
+  &.on {
+    display: block;
+  }
+}
+
+.share-wrap {
+	@include opacity(0);
+	&.on {
+		@include opacity(1);
+	}
+}
+
+.modal {
+	&.uber-card-modal {
+		.modal-dialog {
+			-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+			.modal-body {
+				.main-card {
+					.main-card-content {
+						font-family: 'Lato', sans-serif;
+						&.twitter {
+							.meta-top {
+								.name {
+									color: #999;
+								  font-size: 18px;
+								  line-height: normal;
+								}
+								.screen-name {
+									display: block;
+								  color: #660066;
+								}
+								img {
+									float: left;
+								  font-weight: bold;
+								}
+							}
+							.inner {
+								.date {
+									color: #999;
+								}
+							}
+						}
+						&.facebook {
+
+						}
+						&.blogpost {
+
+						}
+					 .inner {
+  				 		margin:10px;
+							margin: 0;
+							color: #3b3b3b;
+							font-size: 16px;
+							font-weight: 300;
+							p {
+								color: #3b3b3b;
+    						font-size: 16px;
+    						font-weight: 300;
+							}
+						}
+						.inner-entry {
+							padding: 20px;
+						  background: #f9f9f9;
+						  color: #3b3b3b;
+						  font-size: 20px;
+						  font-weight: 300;
+						  line-height: 1.5;
+						  word-wrap: break-word;
+							p {
+								&.first {
+									margin: 0;
+								}
+							}
+						}
+					}
+					.inner {
+						p {
+							color: #999;
+							&.date {
+								font-size: 16px;
+							  font-family: 'Lato', sans-serif;
+							  color: rgb(153, 153, 153);
+							}
+						}
+					}
+				}
+				.meta-bottom {
+					border-top: 1px solid #e1e1e1;
+				  margin-top: 30px;
+				  padding-top: 30px;
+					ul {
+						&.share-wrap {
+							display: inline-block;
+						  margin-bottom: 0;
+						  position: static;
+						  list-style: none;
+							li {
+								border-right: 1px solid #eee;
+							  border-left: 1px solid #fff;
+							  color: #a2a2a2;
+							  display: block;
+							  float: left;
+							  font-size: 16px;
+							  line-height: 40px;
+							  height: 100%;
+							  text-align: center;
+							  padding: 0;
+							  margin: 0;
+							  list-style: none;
+								a {
+									background-image: url("../images/sprite-1x.png");
+								  background-color: #f9f9f9;
+								  display: block;
+								  height: 100%;
+								  text-indent: -9999px;
+								  width: 55px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.reply {
+  background-position: 0 -254px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.reply:hover {
+  background-position: 0 -295px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.retweet {
+  background-position: -57px -254px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.retweet:hover {
+  background-position: -57px -293px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.fav {
+  background-position: -114px -256px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.fav:hover {
+  background-position: -114px -295px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.email {
+  background-position: -165px -333px;
+}
+
+.modal.ng-isolate-scope .meta-bottom ul.share-wrap li a.email:hover {
+  background-position: -165px -373px;
+}
+
+///// Slider Cards //////
+.slick-container {
+  .slick-slider {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    .slick-prev, .slick-next {
+      top: 33%;
+    }
+    .slick-list {
+      .slick-track {
+        .uber-card {
+          @extend %card-wrap;
+          overflow: hidden;
+          &:before {
+            @extend %card-before;
+          }
+          a {
+            &.link_overlay {
+              @extend %link_overlay;
+              &.on {
+                background-color: #000;
+                opacity: .7;
+                filter: alpha(opacity=70);
+                & > .more {
+                  display: block;
+                }
+              }
+              .more {
+                @extend %overlay_more;
+              }
+            }
+            &.item_links {
+              @extend %item-links;
+              &.links_no_icon {
+                background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat 0 0;
+              }
+              &.twitter {
+                background-position: -385px -55px;
+              }
+              &.facebook {
+                background-position: -385px -105px;
+              }
+              &.youtube {
+                background-position: -385px -205px;
+              }
+              &.blogpost {
+                background-position: -385px -305px;
+              }
+            }
+          }
+
+
+          .description-wrapper {
+            @extend %description-wrapper;
+            min-height: 70px;
+            .title {
+              @extend %card-title;
+            }
+            .desc {
+              @extend %card-desc;
+            }
+            .date {
+              @extend %card-date;
+            }
+          }
+          p {
+            @extend %card-p;
+          }
+          .image-wrapper {
+            @extend %image-wrapper;
+            img {
+              @extend %wrapped-image;
+              margin-right: 0;
+              &.avatar {
+                @extend %img-avatar;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.slick-container .slick-track .uber-card .share-wrap {
+  -webkit-transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+  width: 88%;
+  width: 74%;
+  margin: 0 13%;
+  padding: 0;
+  background-color: rgba(255,255,255,0.9);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 8;
+  display: block;
+  position: absolute;
+  height: 40px;
+  bottom: 55px;
+}
+
+.slick-container .slick-track .uber-card:hover .share-wrap {
+  opacity: 1;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  width: 25%;
+  height: 100%;
+  display: block;
+  text-indent: -9999em;
+  background: #fff;
+  float: left;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a {
+  /*background: url("../images/button-reply.png") no-repeat center 0;*/
+  display: block;
+  height: 100%;
+  text-indent: -9999em;
+  color: #660066;
+  text-decoration: none;
+  cursor: auto;
+  position: relative !important;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.reply {
+  background: url("../images/button-reply.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.reply:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.retweet {
+  background: url("../images/button-retweet.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.retweet:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.fav {
+  background: url("../images/button-fav.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.fav:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.email {
+  background: url("../images/button-email.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.email:hover {
+  background-position: center -40px;
+}

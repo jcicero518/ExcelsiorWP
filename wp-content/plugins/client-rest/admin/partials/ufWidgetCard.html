@@ -1,0 +1,52 @@
+<div>
+  <div class="hentry" style="height:495px !important;background:#ccc;overflow:hidden !important">
+    <div class="parallax__layer">
+
+      <div class="section-container slick-container" style="padding-top:25px">
+        <div class="uf-widget-ajax-loader"></div>
+
+        <div class="slick-slider" check-loaded="model.streamLoaded" style="height: 495px !important;width: {{maxWidth}}px"
+        data-slick='{"slidesToShow": {{model.number}}, "slidesToScroll": {{model.number}}, "dots": true}'>
+        <div class="uber-card entry-content fade" ng-repeat="item in streamItems"
+          ng-mouseenter="sharehover = true"
+          ng-mouseleave="sharehover = false">
+
+            <div class="image-wrapper">
+              <img ng-src="{{item.HubItem.thumbnail_url}}" />
+            </div>
+
+            <div class="description-wrapper">
+              <div class="date text-left"><abbr>{{item.HubItem.modified | date}}</abbr></div>
+              <img class="avatar" alt="Excelsior College" ng-src="http://amorphouswebsolutions.com/wp-content/plugins/client-rest/admin/images/excel_favicon.jpeg" />
+              <div class="title">{{item.HubItem.title}}</div>
+              <div class="desc">{{item.HubItem.description}}</div>
+            </div>
+
+            <ul class="share-wrap" ng-show="model.sharer === 'Yes'" ng-class="{'on' : sharehover}">
+              <li>
+						    <a class="reply hooked" data-share="twitter" href="https://twitter.com/intent/tweet?in_reply_to={{item.HubItem.id}}; " title="Reply">Reply</a>
+						  </li>
+						  <li>
+						    <a class="retweet hooked" data-share="twitter" href="https://twitter.com/intent/retweet?tweet_id={{item.HubItem.id}}" title="Retweet">Retweet</a>
+						  </li>
+						  <li>
+						    <a class="fav hooked" data-share="twitter" href="https://twitter.com/intent/favorite?tweet_id={{item.HubItem.id}}" title="Favorite">Favorite</a>
+						  </li>
+						  <li>
+						    <a class="email hooked" data-share="email" href title="Email">Email</a>
+						  </li>
+            </ul>
+            <a class="item_links" card-type-class="{{item.HubItem.type}}" href></a>
+            <a class="link_overlay" ng-click="openModal(item.HubItem)"
+              ng-mouseenter="linkhover = true"
+              ng-mouseleave="linkhover = false"
+              ng-class="{'on' : linkhover}" href>
+              <span class="more">{{model.linktext}}</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

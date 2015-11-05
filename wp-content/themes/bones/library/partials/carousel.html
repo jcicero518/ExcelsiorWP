@@ -1,0 +1,26 @@
+<div id="{{carouselID}}" class="carousel slide hentry {{containerClass}}" data-ride="carousel">
+  <div class="parallax__layer">
+  <indicators></indicators>
+  
+  <div ng-switch="isLoading">
+    
+  <div class="carousel-inner" role="listbox" ng-switch-when="false" ng-switch="isSuccessful">
+    <div ng-repeat="post in postdata" class="item" ng-switch-when="true" ng-class="{ active:post.defaultSelected }">
+      <img ng-src="{{post.featured_image.source}}" alt="{{post.featured_image.title}}" />
+      <div class="carousel-caption">
+        <h2 class="title">{{post.title}}</h2>
+        <div class="italic" ng-bind-html="post.content">{{post.content}}</div>  
+      </div>
+    </div>
+  </div>
+  
+  <!--<a class="left carousel-control" href="#{{carouselID}}" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">{{controlButtonPrev}}</span>
+  </a>
+  <a class="right carousel-control" href="#{{carouselID}}" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">{{controlButtonNext}}</span>
+  </a>-->
+  </div>
+</div>

@@ -1,0 +1,22 @@
+AuthType Basic
+AuthName "Client Restricted Area"
+AuthUserFile /home/149378/.htpasswd
+AuthGroupFile /home/149378/.htgroup
+Require user VipClient
+Allow from 192.168.50.255
+Satisfy any
+Options -Indexes
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+

@@ -1,0 +1,15 @@
+<div id="bg1" class="hentry">
+  <div class="parallax__layer">
+    <header class="article-header">
+      <h1 class="page-title" itemprop="headline">{{section_title}}</h1>
+    </header>
+    
+    <div class="section-container">
+      <section ng-repeat="post in post_www" class="entry-content animate-repeat col-xs-12 col-sm-6 col-md-4 cf" itemprop="articleBody">
+        <div class="align-center image-circle"><img ng-src="{{post.featured_image.source}}" /></div>
+        <h1 class="page-title" itemprop="headline">{{post.title}}</h1>
+        <p ng-bind-html="post.content">{{post.content}}</p>
+      </section>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,608 @@
+#cardModal {
+  
+}
+
+#cardModal .modal-dialog {
+  
+}
+
+.panel-default {
+  cursor: pointer;
+}
+
+#cardModal .modal-dialog .modal-body .container-fluid.no-padd {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#cardModal .modal-dialog iframe {
+  width: 100%;
+}
+
+#cardModal .modal-dialog .modal-body {
+
+}
+
+#cardModal .modal-dialog .modal-content .modal-body .main-card {
+  height: 450px;
+  overflow: hidden;
+}
+
+#cardModal .modal-dialog .modal-content .modal-body .main-card:hover {
+  overflow-y: scroll;
+}
+
+#cardModal .modal-dialog .modal-body .main-card .main-card-content {
+  height: auto;
+  overflow: hidden;
+}
+
+#cardModal .modal-dialog .modal-body .related-cards {
+  height: 450px;
+  overflow-y: scroll;
+}
+
+
+#cardModal .meta-top .name {
+    
+}
+
+#cardModal .modal-dialog .modal-body .main-card .main-card-content .inner {
+  margin:10px;
+}
+
+#cardModal .modal-dialog .modal-body .main-card .main-card-content .inner-entry {
+  padding: 20px;
+  background: #f9f9f9;
+  color: #3b3b3b;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+#cardModal .modal-dialog .modal-body .main-card .main-card-content .inner-entry p.first {
+  margin: 0; 
+}
+
+#cardModal .twitter .meta-top .name {
+  color: #999;
+  font-size: 18px;
+  line-height: normal;
+}
+
+#cardModal .modal-dialog .modal-body .main-card .main-card-content .twitter.meta-top img {
+  float: left;
+  font-weight: bold;
+}
+
+#cardModal .twitter .meta-top .screen-name {
+  display: block;
+  color: #660066;
+}
+
+#cardModal .twitter .inner .date {
+  color: #999;
+}
+
+#cardModal .inner {
+  
+}
+
+#cardModal .inner p {
+  font-size: 26px;
+  font-weight: 300;
+  word-wrap: break-word;
+  color: #999;
+}
+
+#cardModal .inner p.date {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+#cardModal .meta-bottom {
+  border-top: 1px solid #e1e1e1;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+#cardModal .meta-bottom ul.share-wrap {
+  display: inline-block;
+  margin-bottom: 0;
+  position: static;
+  list-style: none;
+}
+
+#cardModal .meta-bottom ul.share-wrap li {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #fff;
+  color: #a2a2a2;
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a {
+  background-image: url("../images/sprite-1x.png");
+  background-color: #f9f9f9;
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+  width: 55px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.reply {
+  background-position: 0 -254px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.reply:hover {
+  background-position: 0 -295px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.retweet {
+  background-position: -57px -254px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.retweet:hover {
+  background-position: -57px -293px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.fav {
+  background-position: -114px -256px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.fav:hover {
+  background-position: -114px -295px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.email {
+  background-position: -165px -333px;
+}
+
+#cardModal .meta-bottom ul.share-wrap li a.email:hover {
+  background-position: -165px -373px;
+}
+
+.uber-card {
+	padding: 10px;
+	height: 330px;
+	overflow: hidden;
+	
+}
+
+
+
+.slick-container .slick-track .uber-card .share-wrap {
+  -webkit-transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+  width: 88%;
+  width: 74%;
+  margin: 0 13%;
+  padding: 0;
+  background-color: rgba(255,255,255,0.9);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 8;
+  display: block;
+  position: absolute;
+  height: 40px;
+  bottom: 55px;
+}
+
+.slick-container .slick-track .uber-card:hover .share-wrap {
+  opacity: 1;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  width: 25%;
+  height: 100%;
+  display: block;
+  text-indent: -9999em;
+  background: #fff;
+  float: left;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a {
+  /*background: url("../images/button-reply.png") no-repeat center 0;*/
+  display: block;
+  height: 100%;
+  text-indent: -9999em;
+  color: #660066;
+  text-decoration: none;
+  cursor: auto;
+  position: relative !important;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.reply {
+  background: url("../images/button-reply.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.reply:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.retweet {
+  background: url("../images/button-retweet.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.retweet:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.fav {
+  background: url("../images/button-fav.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.fav:hover {
+  background-position: center -41px;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.email {
+  background: url("../images/button-email.png") no-repeat center 0;
+}
+
+.slick-container .slick-track .uber-card .share-wrap li a.email:hover {
+  background-position: center -40px;
+}
+
+.uber-card .card-content-wrapper {
+	margin:0;
+	padding:0;
+	background: #fff;
+	position:relative;
+	border: 1px solid #ddd;
+	width: 225px;
+	/*-webkit-box-shadow: inset 0 0 200px 0 rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 200px 0 rgba(0,0,0,0.5);
+  background: #e6e6e6;*/
+}
+
+.uber-card .description-wrapper {
+	min-height: 70px;
+		
+}
+
+.uber-card .image-wrapper {
+}
+
+.uber-card .image-wrapper img {
+		/*height: 200px;*/
+		margin-right: 0;
+}
+
+.slick-container .slick-track .uber-card a.link_overlay {
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat 0 0;
+  z-index: 7;
+  
+  text-decoration: none;
+  
+}
+
+.slick-container .slick-track .uber-card a.link_overlay .more {
+  margin: 0 auto;
+  padding: 10px 0;
+  -webkit-transition: all 450ms linear;
+  transition: all 450ms linear;
+  display: none;
+  position: relative;
+  top: 45%;
+  left: 35%;
+  left: auto;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight:bold;
+  text-align: center;
+  bottom: auto;
+  width: 120px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  z-index:8;
+}
+
+.slick-container .slick-track .uber-card a.link_overlay .more:hover {
+  background-color:rgba(204, 204, 204, 0.7);
+}
+
+
+
+.slick-container .slick-track .uber-card a.link_overlay.on {
+  background-color: #000;
+  background-color: transparent;
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+.slick-container .slick-track .uber-card a.link_overlay.on > .more {
+  display: block; 
+}
+
+.uber-card .hover-overlay {
+  display:none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 24;
+  background-color: #000;
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+.uber-card .hover-overlay.on {
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+  display: block;
+}
+
+.uber-card .title {
+	margin-bottom:5px;
+	padding:0 20px;
+	color: rgba(0, 0, 0, 0.7 );
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	text-align: left;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.uber-card .desc {
+	padding:0 20px;
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: 300;
+	color: #999;
+	text-align: left;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.uber-card p {
+	color: rgba(0, 0, 0, 0.7 );
+	font-size: 12px;
+	line-height: 17px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.uber-card .card-content-wrapper .card-type {
+	padding:0 20px;
+	background-color: rgba(0, 0, 0, 0.08);
+	height: 25px;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	text-align: left;
+	-webkit-box-shadow: 0 0 5px gray;
+	box-shadow: 0 0 5px gray;
+}
+
+.slick-slider {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	
+}
+
+.slick-prev, .slick-next {
+	top: 33%;
+}
+
+.parallax .parallax__group .hentry .parallax__layer .section-container .slick-dots {
+	bottom:auto !important;
+}
+
+.slick-container .slick-track {
+  
+}
+
+.slick-container .slick-track .uber-card {
+	padding:0;
+	margin:0 10px;
+  width: 250px;
+  height: 330px;
+  position: relative;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  
+}
+
+.slick-container .slick-track .uber-card:before {
+	  display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    content: "";
+}
+
+.slick-container .slick-track .uber-card .image-wrapper {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: none;
+  width: 100%;
+  height: 41.09947644%;
+  transition: opacity 400ms;
+}
+
+.slick-container .slick-track .uber-card .image-wrapper img {
+  margin:0;
+  padding:0;
+  max-width: 100%;
+  height: auto;
+  float: none;
+  width: 100%;
+  display: inline; 
+}
+
+.slick-container .slick-track .uber-card .description-wrapper {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  min-height: 70px;
+  height: 58.90052356%;
+  width: 100%;
+}
+
+.slick-container .slick-track .uber-card .description-wrapper .date {
+  color: #bbb;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.slick-container .slick-track .uber-card .description-wrapper img.avatar {
+  float: left;
+  width: auto;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* .title as <h3 class="h3like avatar"> */
+.slick-container .slick-track .uber-card .description-wrapper .title {
+  color: #555;
+  text-transform: none;
+	margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  /*margin: 5px 20px 5px 20px;*/
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  white-space: nowrap;
+  text-rendering: optimizelegibility;
+}
+
+.slick-container .slick-track .uber-card .description-wrapper .desc {
+  margin: 0 20px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  position: absolute;
+  width: 85%;
+  width: calc(100% - 40px);
+  color: #999;
+  word-wrap: break-word;
+  text-transform: none;
+  z-index: 5;
+}
+
+.slick-container .slick-track .uber-card a,
+.slick-container .slick-track .uber-card a.active,
+.slick-container .slick-track .uber-card a.visited,
+.slick-container .slick-track .uber-card a.focus {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: transparent;
+	outline: 0;
+	text-align: left;
+	background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat 0 0;
+}
+
+.slick-container .slick-track .uber-card a.item_links {
+	margin: 0;
+	padding-left: 45px;
+	color: #660066;
+	background-color: #fcfcfc;
+	background-image: url(../images/sprite-1x.png);
+	background-repeat: no-repeat;
+	border-top: 1px solid #eee;
+	top: auto;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	display: block;
+	z-index: 6;
+}
+
+.slick-container .slick-track .uber-card a.item_links.links_no_icon {
+	background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat 0 0;
+}
+
+.slick-container .slick-track .uber-card a.item_links.twitter {
+	background-position: -385px -55px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.facebook {
+	background-position: -385px -105px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.linkedin {
+	background-position: -385px -155px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.youtube {
+	background-position: -385px -205px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.vimeo {
+	background-position: -385px -255px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.blogpost {
+	background-position: -385px -305px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.pinterest {
+	background-position: -385px -455px;	
+}
+
+.slick-container .slick-track .uber-card a.item_links.instagram {
+	background-position: -385px -505px;	
+}

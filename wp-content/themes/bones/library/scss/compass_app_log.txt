@@ -1,0 +1,184 @@
+2015-07-29 15:48:53    create ../css/admin.css 
+2015-07-29 15:48:58 overwrite ../css/editor-style.css 
+2015-07-29 15:48:59 overwrite ../css/ie.css 
+2015-07-29 15:48:59 overwrite ../css/login.css 
+2015-07-29 15:49:18 overwrite ../css/style.css 
+2015-07-29 15:52:29 identical ../css/admin.css 
+2015-07-29 15:52:29 identical ../css/editor-style.css 
+2015-07-29 15:52:29 identical ../css/ie.css 
+2015-07-29 15:52:29 identical ../css/login.css 
+2015-07-29 15:52:30 overwrite ../css/style.css 
+2015-07-29 15:56:31 identical ../css/admin.css 
+2015-07-29 15:56:31 identical ../css/editor-style.css 
+2015-07-29 15:56:31 overwrite ../css/ie.css 
+2015-07-29 15:56:31 identical ../css/login.css 
+2015-07-29 15:56:32 overwrite ../css/style.css 
+2015-07-29 15:57:43 identical ../css/admin.css 
+2015-07-29 15:57:43 identical ../css/editor-style.css 
+2015-07-29 15:57:43 identical ../css/ie.css 
+2015-07-29 15:57:43 identical ../css/login.css 
+2015-07-29 15:57:44 overwrite ../css/style.css 
+2015-07-29 16:11:30 identical ../css/admin.css 
+2015-07-29 16:11:30 identical ../css/editor-style.css 
+2015-07-29 16:11:31 identical ../css/ie.css 
+2015-07-29 16:11:31 identical ../css/login.css 
+2015-07-29 16:11:32 overwrite ../css/style.css 
+2015-07-29 16:13:57 identical ../css/admin.css 
+2015-07-29 16:13:57 identical ../css/editor-style.css 
+2015-07-29 16:13:58 identical ../css/ie.css 
+2015-07-29 16:13:58 identical ../css/login.css 
+2015-07-29 16:13:59 overwrite ../css/style.css 
+2015-07-29 16:15:08 identical ../css/admin.css 
+2015-07-29 16:15:08 identical ../css/editor-style.css 
+2015-07-29 16:15:08 identical ../css/ie.css 
+2015-07-29 16:15:08 identical ../css/login.css 
+2015-07-29 16:15:09 overwrite ../css/style.css 
+2015-07-29 16:16:35 identical ../css/admin.css 
+2015-07-29 16:16:35 identical ../css/editor-style.css 
+2015-07-29 16:16:35 identical ../css/ie.css 
+2015-07-29 16:16:35 identical ../css/login.css 
+2015-07-29 16:16:36 overwrite ../css/style.css 
+2015-07-29 16:17:16 identical ../css/admin.css 
+2015-07-29 16:17:17 identical ../css/editor-style.css 
+2015-07-29 16:17:17 identical ../css/ie.css 
+2015-07-29 16:17:17 identical ../css/login.css 
+2015-07-29 16:17:18 overwrite ../css/style.css 
+2015-07-29 16:17:27 identical ../css/admin.css 
+2015-07-29 16:17:27 identical ../css/editor-style.css 
+2015-07-29 16:17:27 identical ../css/ie.css 
+2015-07-29 16:17:27 identical ../css/login.css 
+2015-07-29 16:17:28 overwrite ../css/style.css 
+2015-07-29 16:31:46 identical ../css/admin.css 
+2015-07-29 16:31:46 identical ../css/editor-style.css 
+2015-07-29 16:31:46 identical ../css/ie.css 
+2015-07-29 16:31:46 identical ../css/login.css 
+2015-07-29 16:31:47 overwrite ../css/style.css 
+2015-07-29 16:43:36 identical ../css/admin.css 
+2015-07-29 16:43:36 identical ../css/editor-style.css 
+2015-07-29 16:43:37 identical ../css/ie.css 
+2015-07-29 16:43:37 identical ../css/login.css 
+2015-07-29 16:43:37 overwrite ../css/style.css 
+2015-07-29 16:55:27 identical ../css/admin.css 
+2015-07-29 16:55:27 identical ../css/editor-style.css 
+2015-07-29 16:55:27 identical ../css/ie.css 
+2015-07-29 16:55:27 identical ../css/login.css 
+2015-07-29 16:55:28 overwrite ../css/style.css 
+2015-07-29 16:56:24 identical ../css/admin.css 
+2015-07-29 16:56:24 identical ../css/editor-style.css 
+2015-07-29 16:56:24 identical ../css/ie.css 
+2015-07-29 16:56:24 identical ../css/login.css 
+2015-07-29 16:56:25 overwrite ../css/style.css 
+2015-07-29 16:59:10 identical ../css/admin.css 
+2015-07-29 16:59:10 identical ../css/editor-style.css 
+2015-07-29 16:59:10 identical ../css/ie.css 
+2015-07-29 16:59:10 identical ../css/login.css 
+2015-07-29 16:59:11 overwrite ../css/style.css 
+2015-07-29 17:06:10 identical ../css/admin.css 
+2015-07-29 17:06:11 identical ../css/editor-style.css 
+2015-07-29 17:06:11 identical ../css/ie.css 
+2015-07-29 17:06:11 identical ../css/login.css 
+2015-07-29 17:06:12 overwrite ../css/style.css 
+2015-07-29 17:06:54 identical ../css/admin.css 
+2015-07-29 17:06:54 identical ../css/editor-style.css 
+2015-07-29 17:06:55 identical ../css/ie.css 
+2015-07-29 17:06:55 identical ../css/login.css 
+2015-07-29 17:06:55 overwrite ../css/style.css 
+2015-07-29 17:11:58 identical ../css/admin.css 
+2015-07-29 17:11:59 identical ../css/editor-style.css 
+2015-07-29 17:11:59 identical ../css/ie.css 
+2015-07-29 17:11:59 identical ../css/login.css 
+2015-07-29 17:12:01 overwrite ../css/style.css 
+2015-07-29 17:13:04 identical ../css/admin.css 
+2015-07-29 17:13:04 identical ../css/editor-style.css 
+2015-07-29 17:13:04 identical ../css/ie.css 
+2015-07-29 17:13:04 identical ../css/login.css 
+2015-07-29 17:13:05 overwrite ../css/style.css 
+2015-07-30 11:02:50 identical ../css/admin.css 
+2015-07-30 11:02:53 identical ../css/editor-style.css 
+2015-07-30 11:02:53 identical ../css/ie.css 
+2015-07-30 11:02:53 identical ../css/login.css 
+2015-07-30 11:02:55 identical ../css/style.css 
+2015-07-30 11:05:51 identical ../css/admin.css 
+2015-07-30 11:05:51     error editor-style.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:05:51 overwrite ../css/editor-style.css 
+2015-07-30 11:05:51     error ie.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:05:51 overwrite ../css/ie.css 
+2015-07-30 11:05:51 identical ../css/login.css 
+2015-07-30 11:05:51     error style.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:05:51 overwrite ../css/style.css 
+2015-07-30 11:06:59 identical ../css/admin.css 
+2015-07-30 11:06:59     error editor-style.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:06:59 identical ../css/editor-style.css 
+2015-07-30 11:06:59     error ie.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:06:59 identical ../css/ie.css 
+2015-07-30 11:06:59 identical ../css/login.css 
+2015-07-30 11:06:59     error style.scss (Line 115 of partials/_variables.scss: Undefined variable: "$component-active-color".)
+2015-07-30 11:06:59 identical ../css/style.css 
+2015-07-30 11:09:05 identical ../css/admin.css 
+2015-07-30 11:09:05     error editor-style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:09:05 overwrite ../css/editor-style.css 
+2015-07-30 11:09:05     error ie.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:09:05 overwrite ../css/ie.css 
+2015-07-30 11:09:05 identical ../css/login.css 
+2015-07-30 11:09:06     error style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:09:06 overwrite ../css/style.css 
+2015-07-30 11:10:24 identical ../css/admin.css 
+2015-07-30 11:10:24     error editor-style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:10:24 identical ../css/editor-style.css 
+2015-07-30 11:10:24     error ie.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:10:24 identical ../css/ie.css 
+2015-07-30 11:10:24 identical ../css/login.css 
+2015-07-30 11:10:24     error style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:10:24 identical ../css/style.css 
+2015-07-30 11:12:07 identical ../css/admin.css 
+2015-07-30 11:12:07     error editor-style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:12:07 identical ../css/editor-style.css 
+2015-07-30 11:12:07     error ie.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:12:07 identical ../css/ie.css 
+2015-07-30 11:12:07 identical ../css/login.css 
+2015-07-30 11:12:07     error style.scss (Line 184 of partials/_variables.scss: Undefined variable: "$line-height-computed".)
+2015-07-30 11:12:07 identical ../css/style.css 
+2015-07-30 11:12:54 identical ../css/admin.css 
+2015-07-30 11:12:54     error editor-style.scss (Line 219 of partials/_variables.scss: Undefined variable: "$grid-gutter-width".)
+2015-07-30 11:12:54 overwrite ../css/editor-style.css 
+2015-07-30 11:12:54     error ie.scss (Line 219 of partials/_variables.scss: Undefined variable: "$grid-gutter-width".)
+2015-07-30 11:12:54 overwrite ../css/ie.css 
+2015-07-30 11:12:54 identical ../css/login.css 
+2015-07-30 11:12:55     error style.scss (Line 219 of partials/_variables.scss: Undefined variable: "$grid-gutter-width".)
+2015-07-30 11:12:55 overwrite ../css/style.css 
+2015-07-30 11:13:52 identical ../css/admin.css 
+2015-07-30 11:13:52     error editor-style.scss (Line 221 of partials/_variables.scss: Undefined variable: "$screen-sm-min".)
+2015-07-30 11:13:52 overwrite ../css/editor-style.css 
+2015-07-30 11:13:52     error ie.scss (Line 221 of partials/_variables.scss: Undefined variable: "$screen-sm-min".)
+2015-07-30 11:13:52 overwrite ../css/ie.css 
+2015-07-30 11:13:52 identical ../css/login.css 
+2015-07-30 11:13:53     error style.scss (Line 221 of partials/_variables.scss: Undefined variable: "$screen-sm-min".)
+2015-07-30 11:13:53 overwrite ../css/style.css 
+2015-07-30 11:14:12 identical ../css/admin.css 
+2015-07-30 11:14:12 overwrite ../css/editor-style.css 
+2015-07-30 11:14:13 overwrite ../css/ie.css 
+2015-07-30 11:14:13 identical ../css/login.css 
+2015-07-30 11:14:13     error style.scss (Line 94 of bootstrap/bootstrap/_scaffolding.scss: Undefined variable: "$thumbnail-padding".)
+2015-07-30 11:14:14 overwrite ../css/style.css 
+2015-07-30 11:14:59 identical ../css/admin.css 
+2015-07-30 11:14:59 identical ../css/editor-style.css 
+2015-07-30 11:14:59 identical ../css/ie.css 
+2015-07-30 11:14:59 identical ../css/login.css 
+2015-07-30 11:15:00     error style.scss (Line 296 of bootstrap/bootstrap/_navbar.scss: Undefined mixin 'form-inline'.)
+2015-07-30 11:15:00 overwrite ../css/style.css 
+2015-07-30 11:15:42 identical ../css/admin.css 
+2015-07-30 11:15:42 identical ../css/editor-style.css 
+2015-07-30 11:15:43 identical ../css/ie.css 
+2015-07-30 11:15:43 identical ../css/login.css 
+2015-07-30 11:15:43     error style.scss (Line 28 of bootstrap/bootstrap/_scaffolding.scss: Undefined variable: "$font-family-base".)
+2015-07-30 11:15:43 overwrite ../css/style.css 
+2015-07-30 11:16:07 identical ../css/admin.css 
+2015-07-30 11:16:07 identical ../css/editor-style.css 
+2015-07-30 11:16:08 identical ../css/ie.css 
+2015-07-30 11:16:08 identical ../css/login.css 
+2015-07-30 11:16:16 overwrite ../css/style.css 
+2015-07-30 11:59:48 identical ../css/admin.css 
+2015-07-30 11:59:48 identical ../css/editor-style.css 
+2015-07-30 11:59:48 identical ../css/ie.css 
+2015-07-30 11:59:48 identical ../css/login.css 
+2015-07-30 11:59:53 overwrite ../css/style.css 

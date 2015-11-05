@@ -1,0 +1,183 @@
+#cardModal, .ng-isolate-scope {
+  &.full-screen {
+    @extend %full-screen-container;
+    overflow: hidden;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+
+    iframe {
+      /*height: 100%;*/
+    }
+    .modal-dialog {
+      -webkit-transition: all 100ms linear;
+      transition: all 100ms linear;
+      @extend %full-screen-width;
+
+      .modal-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      .modal-content {
+        @extend %full-screen-abs;
+        border: 2px solid #3c7dcf;
+        border-radius: 0;
+        box-shadow: none;
+
+        .modal-body {
+          position: absolute;
+          top: 50px;
+          bottom: 60px;
+          width: 100%;
+          font-weight: 300;
+          overflow: auto;
+
+          .main-card {
+            height: 100%;
+            overflow: hidden;
+            &:hover {
+              overflow-y: scroll;
+            }
+          }
+
+          .related-cards {
+            max-height: 900px;
+          }
+        }
+      }
+
+      .modal-footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 80px;
+        padding: 10px;
+        background: #f1f3f5
+      }
+    }
+  }
+
+  .main-card {
+    height: 450px;
+    overflow: hidden;
+    &:hover {
+      overflow-y: scroll;
+    }
+  }
+  
+  .modal-dialog {
+
+    .no-padd {
+      @extend %no-padd;
+    }
+    iframe {
+      width: 100%;
+    }
+    .modal-body {
+
+      .main-card {
+        height: 450px;
+        overflow: hidden;
+        &:hover {
+          overflow-y: scroll;
+        }
+
+        .main-card-content {
+
+          .meta-top {
+            word-wrap: break-word;
+
+            .name {
+              font-size: 18px;
+              color: #660066;
+            }
+
+            .date {
+              font-size: 14px;
+            }
+
+            .caption {
+              font-size: 26px;
+              font-weight: 300;
+            }
+
+            img {
+              margin-right: 10px;
+              width:40px;
+              height:40px;
+            }
+          }
+
+          .inner {
+            color: #3b3b3b;
+            font-size: 16px;
+            font-weight: 300;
+
+            a {
+              color: #660066;
+            }
+
+            img {
+              display: inline;
+              max-width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+      .related-cards {
+        height: 450px;
+        overflow-y: auto;
+
+        .panel-default {
+          &.card-selected {
+            border-color: darkblue;
+            border-width: 2px;
+          }
+          &:hover {
+            border-color: darkblue;
+            border-width: 2px;
+          }
+          .panel-heading {
+
+          }
+          .panel-body {
+
+          }
+        }
+      }
+    }
+    .modal-footer {
+      .modalEnlarge {
+        a {
+          margin-top: -5px;
+          display:block;
+          background: transparent url(../images/resizer.png) no-repeat 0 0;
+          width:41px;
+          height:43px;
+          opacity: 1;
+          float: right;
+          &:hover {
+            text-decoration: none;
+            opacity: 0.5;
+            filter: opacity(0.5);
+          }
+        }
+      }
+    }
+  }
+}
+
+.full-screen {
+  .modalEnlarge {
+    a {
+      opacity: 0.5;
+      filter: opacity(0.5);
+    }
+  }
+}

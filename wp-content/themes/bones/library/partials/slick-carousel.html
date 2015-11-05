@@ -1,0 +1,14 @@
+<div id="bg-slick-carousel" class="hentry">
+  <div class="parallax__layer">
+	  <header class="article-header">
+      <h1 class="page-title" itemprop="headline">{{sectionTitle}}</h1>
+    </header>
+    <div class="section-container slick-container">
+    	<div class="slick-slider">
+	    	<div ng-repeat="data in slick_data" class="entry-content animate-repeat">
+		    	<img ng-src="{{data.HubItem.thumbnail_url}}" title="{{data.HubItem.title}}" />
+	    	</div>
+	    </div>
+    </div>
+  </div>
+ </div>
