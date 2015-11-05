@@ -3,16 +3,16 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'db149378_uberflip');
+define('DB_NAME', '');
 
 /** MySQL database username */
-define('DB_USER', 'db149378_uf');
+define('DB_USER', '');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'C3l$i0hF03mzFgssw?');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'internal-db.s149378.gridserver.com');
+define('DB_HOST', '');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
